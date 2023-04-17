@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppDispensador", "AppDispensador\AppDispensador.csproj", "{FE0B9773-2D24-4207-9869-4D100A149EC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dispensador", "Dispensador\Dispensador.csproj", "{16787CD9-EEA8-4C33-A38A-D8A8996212C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE0B9773-2D24-4207-9869-4D100A149EC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE0B9773-2D24-4207-9869-4D100A149EC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE0B9773-2D24-4207-9869-4D100A149EC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE0B9773-2D24-4207-9869-4D100A149EC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16787CD9-EEA8-4C33-A38A-D8A8996212C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16787CD9-EEA8-4C33-A38A-D8A8996212C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16787CD9-EEA8-4C33-A38A-D8A8996212C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16787CD9-EEA8-4C33-A38A-D8A8996212C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3439B415-50E9-4864-9503-3EC64DF51C35}
+	EndGlobalSection
+EndGlobal
