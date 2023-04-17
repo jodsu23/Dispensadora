@@ -16,7 +16,7 @@ namespace AppDispensador
 
             //Agregamos menu de opciones
 
-            Console.WriteLine("Bienvenidpos a la dispensadora");
+            Console.WriteLine("Bienvenidpos a la dispensadora Consola");
 
             while (true) {
 
