@@ -57,6 +57,16 @@ namespace Dispensador
         }
 
         /// Crear la funcion modificarProducto(Producto producto)
+        public bool modificarProducto(Producto producto){
+
+            int enc = this.validaProducto(producto.Codigo);
+            
+            if (enc >= 0) {
+                this.Productos[enc].Nombre = producto.Nombre;       
+            }
+
+            return false;
+        }
 
         public bool eliminarProducto(string codigo) {
             int enc = this.validaProducto(codigo);

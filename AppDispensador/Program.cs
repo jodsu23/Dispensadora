@@ -25,7 +25,7 @@ namespace AppDispensador
                 Console.WriteLine("1. Agregar producto");
                 Console.WriteLine("2. Modificar producto");
                 Console.WriteLine("3. Eliminar producto");
-                Console.WriteLine("3. Comprar producto");
+                Console.WriteLine("4. Comprar producto");
                 string opcion = Console.ReadLine();
 
                 switch (opcion) {
@@ -51,7 +51,16 @@ namespace AppDispensador
 
                         break;
                     case "2":
-                            //Hacerlo
+                        Producto mproducto = new Producto();
+
+                        Console.Write("Codigo ");
+                        mproducto.Codigo = Console.ReadLine();
+
+                        Console.Write("Nombre ");
+                        mproducto.Nombre = Console.ReadLine();
+
+                        dispensador.modificarProducto(mproducto);
+
                         break;
                     case "3":
                         Console.Write("Codigo ");
