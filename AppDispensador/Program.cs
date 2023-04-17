@@ -56,6 +56,8 @@ namespace AppDispensador
                         Console.Write("Codigo ");
                         mproducto.Codigo = Console.ReadLine();
 
+                        // Validar codigo - continuar flujo
+                        
                         Console.Write("Nombre ");
                         mproducto.Nombre = Console.ReadLine();
 
